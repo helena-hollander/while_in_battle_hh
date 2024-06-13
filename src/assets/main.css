@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'DisplayFont';
+    src: url('../assets/fonts/AlteHaasGroteskRegular.ttf') format('truetype');
+    
+    }
+    @font-face {
+      font-family: 'DisplayBold';
+      src: url('../assets/fonts/AlteHaasGroteskBold.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'BrødRegulær';
+      src: url('../assets/fonts/Minion-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'BrødBold';
+      src: url('../assets/fonts/Minion-Bold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'BrødItalic';
+      src: url('../assets/fonts/Minion-SemiboldIt.ttf') format('truetype');
+    }
+  }
