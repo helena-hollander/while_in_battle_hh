@@ -4,26 +4,32 @@ import FrontCanvasComp from '@/components/FrontCanvasComp.vue'; //Forreste canva
 import HeroComp from '@/components/HeroComp.vue'; //Grafikken på Hero page
 import AboutComp from '@/components/AboutComp.vue';
 import DancersComp from '@/components/DancersComp.vue';
+import TourComp from '@/components/TourComp.vue';
 </script>
 
 <template>
 <CanvasComp></CanvasComp>
-
+<body >
 <section id="hero">
   <HeroComp class="absolute z-10 h-screen"></HeroComp>
 </section>
 
-<section id="aboutsection h-screen w-screen">
-  <AboutComp class="absolute translate-y-[100vh] "></AboutComp>
+<section id="aboutsection" class="absolute translate-y-[100vh]">
+  <AboutComp class=" h-screen w-screen"></AboutComp>
 </section>
 
-<section id="dancerssection h-screen w-screen">
-  <DancersComp class="absolute translate-y-[200vh] h-screen w-screen"></DancersComp>
+<section id="dancerssection" class="absolute translate-y-[200vh]">
+  <DancersComp class=" h-screen w-screen"></DancersComp>
+</section>
+
+<section id="toursection" class="absolute translate-y-[300vh]">
+  <TourComp class=" h-screen w-screen"></TourComp>
 </section>
 
 <div>
 <FrontCanvasComp></FrontCanvasComp>
 </div>
+</body>
 </template>
 
 <style>
