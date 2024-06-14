@@ -33,9 +33,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="content" class="translate-x-[700px]">
-      <h2 class="absolute font-display text-white text-9xl blur-sm translate-y-[100px]" id="dancerstitle">dancers</h2>
-    <p id="dancerstext" class="font-brøditalic text-white text-3xl translate-y-[500px] translate-x-[-200px]">
+  <div id="content" class="translate-x-[700px] text-pink-300">
+      <h2 class="absolute font-display text-9xl blur-sm translate-y-[100px]" id="dancerstitle">dancers</h2>
+    <p id="dancerstext" class="font-brøditalic text-3xl translate-y-[500px] translate-x-[-200px]">
       Afra Hosseini Kaladjahi<br />Ama Kyei<br />Anastasija Olescuka<br />Andreas
       Sanchez<br />Anna Fitoussi<br />Camille Prieux<br />Chiara Gilioli<br />Eleanor
       Campbell<br />Freddy Houndekindo<br />Gloria Kapako<br />Ida Holmlund<br />Katie

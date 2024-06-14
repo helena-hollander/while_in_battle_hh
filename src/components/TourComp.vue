@@ -35,46 +35,46 @@ tl.from("#tourtitle", {
 </script>
 
 <template>
-  <div id="toursectionanidown">
-<h2 id="tourtitle" class="font-bold text-white text-10xl translate-y-[300px] translate-x-[1000px] blur-sm">tour dates</h2>
-<div id="dates" class="grid w-[220vw] grid-cols-8 gap-x-[80px] m-20 translate-y-[270px]">
+  
+<h2 id="tourtitle" class="font-bold text-pink-300 text-10xl translate-y-[300px] translate-x-[1000px] blur-sm">tour dates</h2>
+<div id="dates" class="grid w-[220vw] grid-cols-8 gap-x-[80px] m-20 translate-y-[270px] text-pink-300">
 
-<div id="30.10" class="text-white">
+<div id="30.10">
   <p class="font-display text-7xl">30.10.24</p>
   <p class="font-display text-4xl translate-y-[-78px] translate-x-[390px]"> / 19:30</p>
   <p class="font-brøditalic text-4xl translate-y-[-64px]">Stora Teatern, Gothenburg</p>
 </div>
-<div id="23.8" class="text-white">
+<div id="23.8">
   <p class="font-display text-7xl">23.8.24</p>
   <p class="font-display text-4xl translate-y-[-78px] translate-x-[336px]"> / 19:30</p>
   <p class="font-brøditalic text-4xl translate-y-[-64px]">Vitabergsparken, Stockholm</p>
 </div>
-<div id="29.6" class="text-white">
+<div id="29.6">
   <p class="font-display text-7xl">29.6.24</p>
   <p class="font-display text-4xl translate-y-[-78px] translate-x-[336px]"> / 19:30</p>
   <p class="font-brøditalic text-4xl translate-y-[-64px]">Blågårds Plads, Copenhagen</p>
 </div>
-<div id="28.6" class="text-white">
+<div id="28.6">
   <p class="font-display text-7xl">28.6.24</p>
   <p class="font-display text-4xl translate-y-[-78px] translate-x-[336px]"> / 19:30</p>
   <p class="font-brøditalic text-4xl translate-y-[-64px]">Blågårds Plads, Copenhagen</p>
 </div>
-<div id="27.6" class="text-white">
+<div id="27.6">
   <p class="font-display text-7xl">27.6.24</p>
   <p class="font-display text-4xl translate-y-[-78px] translate-x-[336px]"> / 19:30</p>
   <p class="font-brøditalic text-4xl translate-y-[-64px]">Blågårds Plads, Copenhagen</p>
 </div>
-<div id="26.6" class="text-white">
+<div id="26.6">
   <p class="font-display text-7xl">26.6.24</p>
   <p class="font-display text-4xl translate-y-[-78px] translate-x-[336px]"> / 19:30</p>
   <p class="font-brøditalic text-4xl translate-y-[-64px]">Blågårds Plads, Copenhagen</p>
 </div>
-<div id="25.6" class="text-white">
+<div id="25.6">
   <p class="font-display text-7xl">25.6.24</p>
   <p class="font-display text-4xl translate-y-[-78px] translate-x-[336px]"> / 19:30</p>
   <p class="font-brøditalic text-4xl translate-y-[-64px]">Blågårds Plads, Copenhagen</p>
 </div>
 </div>
 
-</div>
+
 </template>
