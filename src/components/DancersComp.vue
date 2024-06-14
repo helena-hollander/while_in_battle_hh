@@ -8,7 +8,7 @@ onMounted(() => {
  let tl = gsap.timeline({
   scrollTrigger: {
     trigger:"#content",
-    start:"-10% center",
+    start:"-20% center",
     end: "+=1400",
     scrub: true, 
     markers: true,
@@ -35,9 +35,16 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="content" class="translate-x-[700px] text-pink-300">
-      <h2 class="absolute font-display text-9xl blur-sm translate-y-[100px]" id="dancerstitle">dancers</h2>
-    <p id="dancerstext" class="font-brøditalic text-3xl translate-y-[500px] translate-x-[-200px]">
+  <div id="content" class="translate-x-[700px] text-pink-300 ">
+      <h2 class="absolute font-display text-9xl blur-sm -translate-y-[50px] z-10" id="dancerstitle">dancers</h2>
+      <div id="gallery" class="absolute translate-y-[700px]">
+        <img src="../assets/images/cullberg1.jpg" class="w-[700px] translate-x-[600px]">
+        <img src="../assets/images/cullberg2.jpg" class="w-[400px]">
+        <img src="../assets/images/cullberg3.jpg" class="w-[600px] translate-x-[300px] translate-y-[100px]">
+        <img src="../assets/images/cullberg4.jpg" class="w-[800px] -translate-x-[700px] translate-y-[100px]">
+        <img src="../assets/images/cullberg5.jpg" class="w-[400px] translate-x-[800px] ">
+      </div>
+    <p id="dancerstext" class="absolute font-brøditalic text-3xl translate-y-[500px] translate-x-[-200px] z-10">
       Afra Hosseini Kaladjahi<br />Ama Kyei<br />Anastasija Olescuka<br />Andreas
       Sanchez<br />Anna Fitoussi<br />Camille Prieux<br />Chiara Gilioli<br />Eleanor
       Campbell<br />Freddy Houndekindo<br />Gloria Kapako<br />Ida Holmlund<br />Katie
@@ -46,7 +53,5 @@ onMounted(() => {
     </p>
   </div>
 
-  <div id="gallery">
-    <img>
-  </div>
+  
 </template>

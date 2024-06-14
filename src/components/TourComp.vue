@@ -7,24 +7,36 @@ gsap.registerPlugin(ScrollTrigger)
 onMounted(()=>{
 let tl = gsap.timeline({
 scrollTrigger:{
-  trigger: '#tourtitle',
-  start: '-170% center',
-  end: 'top center',
+  trigger: '#tourcontent',
+  start: '-50% center',
+  end: '190% center',
   scrub: true,
-  markers: true
-}
+  markers: true,
+  
+  }
 
 });
  
 tl.from("#tourtitle", {
-  ease: "power.out",
+  ease: "power3.out",
   x: -2000,
+duration: 4, 
 })
+tl.to("#tourcontent", {
+  y: 700,
+ duration: 6,
+ delay: 0, 
+ 
+}, ">")
+tl.from("#tourdates", {
+  ease: "power3.out",
+  x: -4400,
+  duration:6,
+  delay: 2,
+ 
+}, "<-40%")
 
-// tl.to("#toursectionanidown", {
-//   y: 100,
 
-// })
 
 
    
@@ -35,9 +47,10 @@ tl.from("#tourtitle", {
 </script>
 
 <template>
-  
-<h2 id="tourtitle" class="font-bold text-pink-300 text-10xl translate-y-[300px] translate-x-[1000px] blur-sm">tour dates</h2>
-<div id="dates" class="grid w-[220vw] grid-cols-8 gap-x-[80px] m-20 translate-y-[270px] text-pink-300">
+<div id="tourcontent" class="-translate-y-[400px]"> 
+<h2 id="tourtitle" class="font-bold text-pink-300 text-10xl translate-y-[300px] translate-x-[800px] blur-sm">tour dates</h2>
+
+<div id="tourdates" class="grid w-[220vw] grid-cols-8 gap-x-[80px] m-20 translate-y-[270px] text-pink-300">
 
 <div id="30.10">
   <p class="font-display text-7xl">30.10.24</p>
@@ -75,6 +88,6 @@ tl.from("#tourtitle", {
   <p class="font-brøditalic text-4xl translate-y-[-64px]">Blågårds Plads, Copenhagen</p>
 </div>
 </div>
-
+</div>
 
 </template>

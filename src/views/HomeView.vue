@@ -24,7 +24,7 @@ import TourComp from '@/components/TourComp.vue';
   <DancersComp class=" h-screen w-screen"></DancersComp>
 </section>
 
-<section id="toursection" class="absolute translate-y-[300vh]">
+<section id="toursection" class="absolute translate-y-[450vh]">
   <TourComp class=" h-screen w-screen"></TourComp>
 </section>
 
