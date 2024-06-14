@@ -47,6 +47,6 @@ onMounted(() => {
   </div>
 
   <div id="gallery">
-    
+    <img>
   </div>
 </template>
