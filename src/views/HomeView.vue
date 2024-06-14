@@ -8,8 +8,10 @@ import TourComp from '@/components/TourComp.vue';
 </script>
 
 <template>
-<CanvasComp></CanvasComp>
+
 <body >
+  <CanvasComp></CanvasComp>
+
 <section id="hero">
   <HeroComp class="absolute z-10 h-screen"></HeroComp>
 </section>
@@ -38,8 +40,9 @@ import TourComp from '@/components/TourComp.vue';
 filter: blur(30px) hue-rotate(60deg) contrast(1.9);
 -webkit-filter: blur(30px) contrast(1.9) saturate(0.25) brightness(1.25); /*alle filters skal være i samme kode, så de ikke annullerer hinanden. I denne web udgave, virker de*/
 pointer-events: none;
- mix-blend-mode: hue; /*Typo forsvinder, hvis ikke blend er hue... ved ikke hvorfor*/
+ /*mix-blend-mode: hue; *//*Typo forsvinder, hvis ikke blend er hue... ved ikke hvorfor*/
  position: fixed; /*så den ikke flytter sig.*/
+ z-index: -10;
 }
 #defaultCanvas1 {
  opacity: 0.1; /*Opacity 25%*/

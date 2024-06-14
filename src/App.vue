@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
 
  <RouterView />
- <div class="fixed grid end-0 translate-y-[346px] grid-cols-1 grid-rows-4 text-white">
+ <div class="fixed grid end-0 translate-y-[346px] grid-cols-1 grid-rows-4 text-pink-300">
  <nav class="grid grid-cols-1 grid-rows-4 text-right translate-x-[-270px]">
 <a href="#aboutsection" class="row-start-1 font-brødbold text-4xl hover:font-display">about</a>
 <a class="row-start-2 font-brødbold text-4xl hover:font-display">dancers</a>
