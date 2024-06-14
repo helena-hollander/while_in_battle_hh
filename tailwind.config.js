@@ -23,6 +23,9 @@ export default {
       fontFamily: {
         display: ["DisplayFont", "sans-serif"], bold: ["DisplayBold"], brød:["BrødRegulær"], brødbold:["BrødBold"], brøditalic: ["BrødItalic"],
       },
+      blur: {
+        xs: '2px',
+      },
     },
   },
   plugins: [],

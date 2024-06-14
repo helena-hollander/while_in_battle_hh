@@ -8,8 +8,8 @@ onMounted(() => {
  let tl = gsap.timeline({
   scrollTrigger: {
     trigger:"#content",
-    start:"top center",
-    end: "+=1100",
+    start:"-10% center",
+    end: "+=1400",
     scrub: true, 
     markers: true,
   },
@@ -17,14 +17,16 @@ onMounted(() => {
 });
  
   tl.from("#dancerstitle", {
-    x: 2000,
-    duration: 2,
+    x: -2000,
+    duration: 5,
+    ease: "power1.out",
 
   })
   tl.to("#dancerstitle", {
-    y: 1100,
-    duration: 5,
-    delay: 2,
+    y: 1200,
+    duration: 8,
+    ease: "power1.out",
+    delay: 4,
   })
 
   
@@ -42,5 +44,9 @@ onMounted(() => {
       Jacobson<br />Lilian Steiner<br />Mohamed Y. Shika<br />Noam Segal<br />Omar
       Velasquez Rojas<br />Rebecca Livaniou<br />Robin Johansson<br />Shai Faran
     </p>
+  </div>
+
+  <div id="gallery">
+    
   </div>
 </template>
