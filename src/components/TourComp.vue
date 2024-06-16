@@ -7,37 +7,23 @@ gsap.registerPlugin(ScrollTrigger)
 onMounted(()=>{
 let tl = gsap.timeline({
 scrollTrigger:{
-  trigger: '#tourcontent',
-  start: '-50% center',
-  end: '190% center',
+  trigger: '#tourdates',
+  start: 'top 70%',
+  end: 'top top',
   scrub: true,
   markers: true,
   
+
   }
 
 });
  
-tl.from("#tourtitle", {
-  ease: "power3.out",
-  x: -2000,
-duration: 4, 
-})
-tl.to("#tourcontent", {
-  y: 700,
- duration: 6,
- delay: 0, 
- 
-}, ">")
 tl.from("#tourdates", {
-  ease: "power3.out",
-  x: -4400,
-  duration:6,
-  delay: 2,
- 
-}, "<-40%")
-
-
-
+  x: -3500,
+})
+.to("#tourdates", {
+  y: 600,
+}, "<")
 
    
  })

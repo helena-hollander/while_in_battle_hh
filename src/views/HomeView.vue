@@ -5,6 +5,7 @@ import HeroComp from '@/components/HeroComp.vue'; //Grafikken på Hero page
 import AboutComp from '@/components/AboutComp.vue';
 import DancersComp from '@/components/DancersComp.vue';
 import TourComp from '@/components/TourComp.vue';
+import TicketsComp from '@/components/TicketsComp.vue';
 </script>
 
 <template>
@@ -28,6 +29,9 @@ import TourComp from '@/components/TourComp.vue';
   <TourComp class=" h-screen w-screen"></TourComp>
 </section>
 
+<section id="ticketssection" class="absolute translate-y-[500vh]">
+  <TicketsComp class="h-[70vh] w-screen"></TicketsComp>
+</section>
 <div>
 <FrontCanvasComp></FrontCanvasComp>
 </div>

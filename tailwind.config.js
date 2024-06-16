@@ -18,6 +18,7 @@ export default {
       '8xl': '8rem',
       '9xl': '11rem',
       '10xl': '13rem',
+      '11xl': '17rem',
     },
     extend: {
       fontFamily: {
