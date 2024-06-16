@@ -7,6 +7,6 @@
 <h2 CLASS="font-display blur-xs text-pink-300 text-6xl translate-x-[15px] translate-y-[60px]">"WHILE IN BATTLE I'M FREE, NEVER FREE TO REST"</h2>
 <div class="translate-x-[1590px] -translate-y-[154px] text-4xl">
 <p class="absolute font-brød text-pink-300 ">contact:</p>
-<p class="absolute font-brøditalic text-pink-300 translate-x-[140px] underline hover:font-display">fiktiv@email.com</p>
+<p class="absolute font-brøditalic text-pink-300 translate-x-[140px] hover:font-display">fiktiv@email.com</p>
 </div>
 </template>
