@@ -10,7 +10,7 @@ onMounted(() => {
 let tl = gsap.timeline({
   scrollTrigger: {
     trigger:"#dancerstext",
-    start:"top 90%",
+    start:"top 95%",
     end: "top 40%",
     scrub: 1, 
     markers: true,
@@ -32,7 +32,7 @@ tl.to("#dancerstitle", {
 
 <template>
   <div id="content" class=" text-pink-300 ">
-      <h2 class="absolute font-display text-9xl blur-sm  z-10  -translate-x-[620px]" id="dancerstitle">dancers</h2>
+      <h2 class="absolute font-display text-9xl blur-sm  z-10  -translate-x-[620px] translate-y-[40px]" id="dancerstitle">dancers</h2>
       <div id="gallery" class="absolute translate-y-[700px] translate-x-[700px]">
         <img src="../assets/images/cullberg1.jpg" class="w-[700px] translate-x-[600px]">
         <img src="../assets/images/cullberg2.jpg" class="w-[400px]">

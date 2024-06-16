@@ -40,7 +40,7 @@ import CreditComp from '@/components/CreditComp.vue';
   <TourComp class=" h-screen w-screen"></TourComp>
 </section>
 
-<section id="ticketssection" class="absolute translate-y-[650vh]">
+<section id="ticketssection" class="absolute translate-y-[670vh]">
   <TicketsComp class="h-[55vh] w-screen"></TicketsComp>
 </section>
 <div>
