@@ -6,6 +6,7 @@ import AboutComp from '@/components/AboutComp.vue';
 import DancersComp from '@/components/DancersComp.vue';
 import TourComp from '@/components/TourComp.vue';
 import TicketsComp from '@/components/TicketsComp.vue';
+import MusicComp from '@/components/MusicComp.vue';
 </script>
 
 <template>
@@ -17,6 +18,8 @@ import TicketsComp from '@/components/TicketsComp.vue';
   <HeroComp class="absolute z-10 h-screen"></HeroComp>
 </section>
 
+<div id="creationlink" class="absolute translate-y-[100vh]">herolink</div>
+
 <section id="aboutsection" class="absolute translate-y-[100vh]">
   <AboutComp class=" h-screen w-screen"></AboutComp>
 </section>
@@ -25,12 +28,16 @@ import TicketsComp from '@/components/TicketsComp.vue';
   <DancersComp class=" h-screen w-screen"></DancersComp>
 </section>
 
-<section id="toursection" class="absolute translate-y-[450vh]">
+<section id="musicsection" class="absolute translate-y-[450vh]">
+  <MusicComp class="translate-x-[400px] w-screen"></MusicComp>
+</section>
+
+<section id="toursection" class="absolute translate-y-[550vh]">
   <TourComp class=" h-screen w-screen"></TourComp>
 </section>
 
-<section id="ticketssection" class="absolute translate-y-[500vh]">
-  <TicketsComp class="h-[70vh] w-screen"></TicketsComp>
+<section id="ticketssection" class="absolute translate-y-[600vh]">
+  <TicketsComp class="h-[55vh] w-screen"></TicketsComp>
 </section>
 <div>
 <FrontCanvasComp></FrontCanvasComp>

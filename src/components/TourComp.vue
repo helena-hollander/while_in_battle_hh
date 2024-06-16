@@ -8,8 +8,8 @@ onMounted(()=>{
 let tl = gsap.timeline({
 scrollTrigger:{
   trigger: '#tourdates',
-  start: 'top 70%',
-  end: 'top top',
+  start: 'top 80%',
+  end: 'top 10%',
   scrub: true,
   markers: true,
   
@@ -22,7 +22,7 @@ tl.from("#tourdates", {
   x: -3500,
 })
 .to("#tourdates", {
-  y: 600,
+  y: 400,
 }, "<")
 
    
@@ -36,7 +36,7 @@ tl.from("#tourdates", {
 <div id="tourcontent" class="-translate-y-[400px]"> 
 <h2 id="tourtitle" class="font-bold text-pink-300 text-10xl translate-y-[300px] translate-x-[800px] blur-sm">tour dates</h2>
 
-<div id="tourdates" class="grid w-[220vw] grid-cols-8 gap-x-[80px] m-20 translate-y-[270px] text-pink-300">
+<div id="tourdates" class="grid w-[200vw] grid-cols-8 gap-x-[80px] m-20 translate-y-[270px] text-pink-300">
 
 <div id="30.10">
   <p class="font-display text-7xl">30.10.24</p>
