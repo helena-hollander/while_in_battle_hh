@@ -1,5 +1,5 @@
 <template>
-  <div class="music-player font-brøditalic text-pink-300 text-9xl p-4">
+  <div class="music-player font-brøditalic text-pink-300 text-7xl p-4">
     <audio ref="audio" :src="audioSrc" @timeupdate="updateTime"></audio>
     <div class="controls flex items-center space-x-4 w-full">
       <button @click="togglePlay" class="text-pink-300 font-bold blur-xs hover:blur-none">
