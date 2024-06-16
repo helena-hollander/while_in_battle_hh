@@ -36,7 +36,7 @@ import CreditComp from '@/components/CreditComp.vue';
   <CreditComp></CreditComp>
 </section>
 
-<section id="toursection" class="absolute translate-y-[610vh]">
+<section id="toursection" class="absolute translate-y-[600vh]">
   <TourComp class=" h-screen w-screen"></TourComp>
 </section>
 
