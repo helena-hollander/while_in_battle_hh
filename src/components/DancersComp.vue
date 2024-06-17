@@ -34,11 +34,11 @@ tl.to("#dancerstitle", {
   <div id="content" class=" text-pink-300 ">
       <h2 class="absolute font-display text-9xl blur-sm  z-10  -translate-x-[620px] translate-y-[40px]" id="dancerstitle">dancers</h2>
       <div id="gallery" class="absolute translate-y-[700px] translate-x-[700px]">
-        <img src="../assets/images/cullberg1.jpg" class="w-[700px] translate-x-[600px]">
-        <img src="../assets/images/cullberg2.jpg" class="w-[400px]">
-        <img src="../assets/images/cullberg3.jpg" class="w-[600px] translate-x-[300px] translate-y-[100px]">
-        <img src="../assets/images/cullberg4.jpg" class="w-[800px] -translate-x-[700px] translate-y-[100px]">
-        <img src="../assets/images/cullberg5.jpg" class="w-[400px] translate-x-[800px] ">
+        <img src="../assets/images/ai-dancers3.png" class="w-[700px] translate-x-[600px]">
+        <img src="../assets/images/ai-dancers8.png" class="w-[400px]">
+        <img src="../assets/images/ai-dancers.png" class="w-[600px] translate-x-[300px] translate-y-[100px]">
+        <img src="../assets/images/ai-dancers5.png" class="w-[800px] -translate-x-[700px] translate-y-[100px]">
+        <img src="../assets/images/ai-dancers6.png" class="w-[400px] translate-x-[800px] ">
       </div>
     <p id="dancerstext" class="absolute font-brøditalic text-3xl z-10 translate-x-[550px] translate-y-[400px]">
       Afra Hosseini Kaladjahi<br />Ama Kyei<br />Anastasija Olescuka<br />Andreas
