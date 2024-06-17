@@ -33,9 +33,9 @@ const script = p5 => {
         
        
         p5.push();
-        p5.translate(-40, -200); //Skubbet til venstre og op
-        p5.scale(2); //Forstørret
-        p5.tint(108,137,207); 
+        p5.translate(-800, -400); //Skubbet til venstre og op
+        p5.scale(3); //Forstørret
+        p5.tint(231,2,148); 
         p5.image(capture, xPos, yPos, targetWidth, targetHeight); //Den der ligger fofrrest
         p5.pop();
 

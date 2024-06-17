@@ -11,7 +11,7 @@ scrollTrigger:{
   start: 'top 80%',
   end: 'top 2%',
   scrub: true,
-  markers: true,
+  markers: false,
   
 
   }

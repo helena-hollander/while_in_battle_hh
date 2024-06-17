@@ -31,7 +31,7 @@ const script = p5 => {
 
         //Draw the video capture within the canvas:
         p5.push();
-        p5.tint(17,159,173); //farve på tint
+        p5.tint(8,116,201); //farve på tint
         p5.image(capture, xPos, yPos, targetWidth, targetHeight);
         p5.pop();
 

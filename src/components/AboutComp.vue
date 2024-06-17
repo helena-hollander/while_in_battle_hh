@@ -11,7 +11,7 @@ scrollTrigger:{
   start: '-100% center',
   end: 'bottom center',
   scrub: .5,
-  markers: true,
+  markers: false,
   
 }
 
