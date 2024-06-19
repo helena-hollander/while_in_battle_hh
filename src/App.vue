@@ -15,7 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
  <RouterView />
  <div class="fixed grid end-0 translate-y-[320px] grid-cols-1 grid-rows-5 text-pink-300">
  <nav class="grid grid-cols-1 grid-rows-4 text-right translate-x-[-260px]">
-<a href="#creationlink" class="row-start-1 font-brødbold text-4xl hover:font-display">creation</a>
+<a href="#aboutsection" class="row-start-1 font-brødbold text-4xl hover:font-display">creation</a>
 <a class="row-start-2 font-brødbold text-4xl hover:font-display">dancers</a>
 <a class="row-start-3 font-brødbold text-4xl hover:font-display">creative team</a>
 <a class="row-start-4 font-brødbold text-4xl hover:font-display">tour dates</a>
